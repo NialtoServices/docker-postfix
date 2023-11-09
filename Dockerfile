@@ -21,7 +21,7 @@ LABEL org.opencontainers.image.description="Postfix"
 LABEL org.opencontainers.image.licenses="Apache-2.0"
 LABEL org.opencontainers.image.source="https://github.com/NialtoServices/docker-postfix"
 
-ARG POSTFIX_VERSION="3.8.2"
+ARG POSTFIX_VERSION="3.8.3"
 
 RUN apk upgrade --no-cache
 
