@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 #
-# Copyright 2023 Nialto Services Ltd
+# Copyright 2025 Nialto Services Ltd
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 
-FROM alpine:3.20
+FROM alpine:3.21
 
 LABEL org.opencontainers.image.description="Postfix"
 LABEL org.opencontainers.image.licenses="Apache-2.0"
 LABEL org.opencontainers.image.source="https://github.com/NialtoServices/docker-postfix"
 
-ARG POSTFIX_VERSION="3.9.0"
+ARG POSTFIX_VERSION="3.9.1"
 
 RUN apk upgrade --no-cache
 
